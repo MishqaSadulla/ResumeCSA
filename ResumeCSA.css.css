@@ -1,0 +1,75 @@
+body{
+    background-image: url("codespace.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#profilepicture{
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 100px;
+}
+
+html{
+    border-style: solid;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: aqua;
+    border-radius: 40px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: aliceblue;
+    margin-bottom: inherit;
+    2px;
+    margin-top: inherit;
+    2px;
+    margin - outline-color: lightseagreen;
+}
+
+/* The animation code */
+@keyframes logoAnimations{
+    0%{width: 100px; height: 100px;}
+    25%{width: 50px; height: 50px;}
+    50%{width: 100px; height: 100px;}
+    75%{width: 50px; height: 50px;}
+    100%{width: 100px; height: 100px;}
+}
+
+/* The element to apply the animation to */
+#logo{
+    animation-name: logoAnimations;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+}
+
+   
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+h2{
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+#details{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+}
+
+#who{
+    font-size: 25px;
+}
+
+#interests{
+    text-align: left;
+}
+    

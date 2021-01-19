@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>responsiveMedia</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="responsiveMedia.css">
+     <hgroup>
+     <body>
+        <img src="normal.jpg" alt="normal">
+        <img src="croppedHalfway.jpg" alt="croppedHalfway">
+        <img src="cropped.jpg" alt="cropped">
+        </body>
+         <h1>Hello World</h1>
+         <picture>
+  <source srcset="normal.jpg" media="(max-width: 600px)">
+  <source srcset="croppedHalfway.jpg" media="(max-width: 1500px)">
+  <source srcset="cropped.jpg">
+  <img id="img" src="img.jpg" alt="Image">
+</picture>
+     </hgroup>

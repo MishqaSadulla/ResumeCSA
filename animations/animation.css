@@ -1,0 +1,145 @@
+p{
+    font-size: 40px;
+}
+
+/* The animation code */
+@keyframes divcolor{
+    0%{background-color: red;}
+    25%{background-color: darkorchid;}
+    50%{background-color: yellow; border-radius: 100%;}
+    75%{background-color: aqua;}
+    100%{background-color: green; transform: rotate(90deg);}
+}
+
+/* The element to apply the animation to */
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: divcolor;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    
+}
+
+/* The animation code */
+@keyframes logoAnimation{
+    0%{width: 100px; height: 100px;}
+    25%{width: 75px; height: 75px;}
+    50%{width: 50px; height: 50px;}
+    75%{width: 75px; height: 75px;}
+    100%{width: 100px; height: 100px;}
+}
+
+/* The element to apply the animation to */
+#firstImage{
+    animation-name: logoAnimation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+
+
+/* The animation code */
+@keyframes star4{
+    0%{width: 100px; height: 100px;}
+    75%{width: 75px; height: 75px;}
+    50%{width: 50px; height: 50px;}
+    75%{width: 75px; height: 75px;}
+    100%{width: 100px; height: 100px;}
+}
+
+/* The element to apply the animation to */
+#div{
+    animation-name: star4;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+/* The animation code */
+@keyframes divcolor{
+    0%{background-color: red;}
+    25%{background-color: darkorchid;}
+    50%{background-color: yellow; border-radius: 100%;}
+    75%{background-color: aqua;}
+    100%{background-color: green; transform: rotate(180deg);}
+}
+
+/* The element to apply the animation to */
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: divcolor;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    
+}
+body{
+    text-align: center;
+}
+
+facebook{
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    background-color: lightblue;
+    margin: 5px;
+}
+
+@media screen and (max-width 768px){
+    /* if the browser window is 786px or smaller */
+    gmail{
+        display: inline-block;
+        width: 45%;
+        height: 250px;
+        background-color: lightblue;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* The animation code */
+@keyframes logoAnimation{
+    0%{width: 100px; height: 100px;}
+    25%{width: 75px; height: 75px;}
+    50%{width: 50px; height: 50px;}
+    75%{width: 75px; height: 75px;}
+    100%{width: 100px; height: 100px;}
+}
+
+/* The element to apply the animation to */
+#secondImage{
+    animation-name: logoAnimation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+
+/* The animation code */
+@keyframes logoAnimation{
+    0%{width: 100px; height: 100px;}
+    75%{width: 75px; height: 75px;}
+    50%{width: 50px; height: 50px;}
+    75%{width: 75px; height: 75px;}
+    100%{width: 100px; height: 100px;}
+}
+
+/* The element to apply the animation to */
+#my{
+    animation-name: logoAnimation;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    text-align: center;
+}
